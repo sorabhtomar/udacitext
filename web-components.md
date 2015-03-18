@@ -119,6 +119,8 @@ information about where web components are and where they will be. Also, be
 sure to check the discussion boards next week when I'll be sharing a demo on
 Polymer and how to make use of Polymer in your own projects!
 
+Talk about this on the forums [here][11]!
+
 [1]: https://polymer-topeka.appspot.com/
 [2]: http://customelements.io/
 [3]: http://component.kitchen/components
@@ -129,3 +131,4 @@ Polymer and how to make use of Polymer in your own projects!
 [8]: http://bosonic.github.io/
 [9]: http://x-tags.org/
 [10]: http://webcomponents.org/
+[11]: http://discussions.udacity.com/t/web-components-the-bleeding-edge-of-web-development-mar-15/13734
