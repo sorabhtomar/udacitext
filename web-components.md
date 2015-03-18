@@ -1,5 +1,5 @@
 <h1><u>Web Components Overview</u></h1>
-<img src="/uploads/default/1861/54815426b381bd2c.png" width="260" height="194"> 
+<img src="/images/web-components-1.png" width="260" height="194"> 
 Web Components are at the bleeding edge of web development, they provide modular, shareable, and customizable HTML elements that users can define. Web Components incorporate a set of polyfills (in this case the code that provides the technology you will be utilizing for creating web components). These polyfills will eventually become natively supported in browsers as web components become the norm but until then you will need to utilize the webcomponent.js file that is provided to use web components. <i>(Note Chrome 36+ has fully implemented these polyfills!).</i>
 
 <h2><u>So What are Web Components Exactly?</u></h2>
@@ -7,7 +7,7 @@ Web components is a broader term for a set of specifications that allow you, the
 
 <h2><u>Custom Elements</u></h2> 
 The first noticeable thing that anyone will tell you about web components is how awesome it is to be able to define and reuse custom DOM elements. This means that you will be able to bundle up styling, script, and structure into an HTML tag and reuse that tag in your project. For example if we take a look at [this sample project provided][1] by Polymer’s development team and explore the source code in our developer tools.
-<img src="/uploads/default/1863/04b678a6b410087f.png" width="675" height="500"> 
+<img src="/images/web-components-2.png" width="675" height="500"> 
 We notice several DOM elements that are not standard to HTML5. In this case we see `<topeka-app>`, `<topeka-categories>`, `<core-animated-pages>`, and many more! You also may notice several attributes that are not common to HTML5 being used throughout the page. Each of these elements are written and defined in their own .html files that are then, through the use of web component specifications, capable of being used anywhere in your app.  
 
 Even better, you’ll be able to share your custom elements with others and they will be able to use your custom built elements in their own projects. There are already hundreds of custom elements that you can explore at [Custom Elements IO][2], [Component Kitchen][3], and [Built with Polymer][4].
